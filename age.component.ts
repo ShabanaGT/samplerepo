@@ -17,7 +17,7 @@ export class AgeComponent implements OnInit {
 
 
 
-      let convertage = new Date(this.age);
+      let convertage1 = new Date(this.age);
       
 
       let timeDiff= Math.abs(Date.now()-convertage.getTime());
